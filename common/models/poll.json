@@ -1,0 +1,58 @@
+{
+  "name": "poll",
+  "plural": "polls",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "optOne": {
+      "type": "string",
+      "required": true
+    },
+    "optTwo": {
+      "type": "string",
+      "required": true
+    },
+    "optThree": {
+      "type": "string"
+    },
+    "optFour": {
+      "type": "string"
+    },
+    "optFive": {
+      "type": "string"
+    },
+    "optSix": {
+      "type": "string"
+    },
+    "ipdup": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "multiple": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "completed": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
