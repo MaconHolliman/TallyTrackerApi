@@ -1,6 +1,6 @@
 {
   "name": "poll",
-  "plural": "polls",
+  "plural": "pollss",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

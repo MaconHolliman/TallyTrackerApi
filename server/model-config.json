@@ -41,5 +41,9 @@
   "poll": {
     "dataSource": "db",
     "public": true
+  },
+  "polls": {
+    "dataSource": "db",
+    "public": true
   }
 }

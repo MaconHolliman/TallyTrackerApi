@@ -1,0 +1,46 @@
+{
+  "name": "polls",
+  "plural": "polls",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "options": {
+      "type": [
+        "string"
+      ]
+    },
+    "votes": {
+		"default": 0,
+      "type": [
+        "number"
+      ]
+    },
+    "multiple": {
+      "type": "boolean",
+      "default": false
+    },
+    "singleIP": {
+      "type": "boolean",
+      "default": true
+    },
+    "ip": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
